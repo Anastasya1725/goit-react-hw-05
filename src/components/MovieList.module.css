@@ -1,0 +1,26 @@
+/* MovieList.module.css */
+.movieList {
+    list-style: none; 
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movieItem {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+  }
+  
+  .movieLink {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  
+  .movieLink:hover {
+    color: orange;
+  }
