@@ -3,6 +3,5 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-   base: '/goit-react-hw-05/',
   plugins: [react()],
 })
