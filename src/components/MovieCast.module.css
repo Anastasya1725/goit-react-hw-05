@@ -1,9 +1,9 @@
 .castList{
-    list-style-type: none;
-    padding: 0;
-    display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
 }
 
 .castItem{
@@ -11,17 +11,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 8px;
 }
 
 .actImg{
-    width: 100px;
-    box-shadow: 0 2px 10 px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  box-shadow: 0 2px 10 px rgba(0, 0, 0, 0.1);
 }
 
 .actInfo{
-    color: #ddd;
-    font-size: 1rem;
+  color: #ddd;
+  font-size: 1rem;
 }
